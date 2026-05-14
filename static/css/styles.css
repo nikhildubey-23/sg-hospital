@@ -210,18 +210,18 @@ h1, h2, h3, h4, h5, h6, .font-serif {
     position: relative;
     border-radius: 16px;
     overflow: hidden;
-    aspect-ratio: 1;
+    background: rgba(255,255,255,0.03);
 }
 
 .gallery-item img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    display: block;
     transition: transform 0.5s ease;
 }
 
 .gallery-item:hover img {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /* WhatsApp & Chat Buttons */
@@ -470,7 +470,7 @@ h1, h2, h3, h4, h5, h6, .font-serif {
     }
     .gallery-item {
         aspect-ratio: auto;
-        height: 150px;
+        height: auto;
     }
     .modal-dialog {
         margin: 10px;
@@ -575,10 +575,10 @@ h1, h2, h3, h4, h5, h6, .font-serif {
         font-size: 0.7rem;
     }
     .treatment-img-container {
-        height: 130px;
+        height: 230px;
     }
     .gallery-item {
-        height: 100px;
+        height: auto;
     }
     .navbar-brand span {
         font-size: 0.85rem;
@@ -620,7 +620,7 @@ h1, h2, h3, h4, h5, h6, .font-serif {
         font-size: 1.25rem;
     }
     .treatment-img-container {
-        height: 130px;
+        height: 230px;
     }
     .gallery-item {
         height: 120px;
