@@ -396,3 +396,231 @@ h1, h2, h3, h4, h5, h6, .font-serif {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-color);
 }
+
+/* Mobile Responsive Fixes */
+@media (max-width: 991.98px) {
+    .navbar-brand span {
+        font-size: 0.95rem;
+    }
+    .navbar .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-section {
+        padding: 90px 0 40px;
+    }
+    .hero-section .display-4 {
+        font-size: 1.75rem;
+    }
+    .hero-section .lead {
+        font-size: 0.9rem;
+    }
+    .hero-floating-card {
+        display: none !important;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .section-padding .display-5 {
+        font-size: 1.5rem;
+    }
+    .stats-card {
+        padding: 1.25rem;
+    }
+    .stats-card h3 {
+        font-size: 1.5rem;
+    }
+    .stats-card p {
+        font-size: 0.8rem;
+    }
+    .glass-card.p-4 {
+        padding: 1rem !important;
+    }
+    .treatment-img-container {
+        height: 150px;
+    }
+    #chat-modal .chat-container {
+        width: calc(100vw - 20px);
+        right: 10px;
+        bottom: 90px;
+        height: 450px;
+        max-height: calc(100vh - 120px);
+    }
+    .whatsapp-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.4rem;
+        bottom: 20px;
+        right: 20px;
+    }
+    #chat-fab {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+        bottom: 80px;
+        right: 20px;
+    }
+    .gallery-item {
+        aspect-ratio: auto;
+        height: 150px;
+    }
+    .modal-dialog {
+        margin: 10px;
+    }
+    .form-control-custom {
+        padding: 10px 12px;
+        font-size: 16px;
+    }
+    .btn-primary-custom {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    .navbar-brand .logo-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+    }
+    .navbar-toggler i {
+        font-size: 1.75rem !important;
+    }
+    .nav-link {
+        padding: 0.4rem 0 !important;
+        font-size: 0.9rem;
+    }
+    footer .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    footer .py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .hero-section .glass-card.p-4 {
+        padding: 0.75rem !important;
+    }
+    .hero-section .glass-card h5 {
+        font-size: 0.9rem;
+    }
+    .hero-section .glass-card p {
+        font-size: 0.75rem;
+    }
+    .hero-section .row.g-4 {
+        --bs-gutter-y: 0.75rem;
+    }
+    .glass-card.card-hover:hover {
+        transform: none;
+    }
+    .rounded-4.overflow-hidden.shadow-lg[style*="height: 500px"] {
+        height: 350px !important;
+    }
+    .doctor-img-col .rounded-4 {
+        height: 350px !important;
+    }
+    section .rounded-4.overflow-hidden.shadow-lg:not(.treatment-card *) {
+        max-height: 350px;
+    }
+    .wellness-card-img,
+    [class*="col-"] .glass-card [style*="height: 200px"] {
+        height: 160px !important;
+    }
+    [class*="col-"] .glass-card [style*="height: 250px"] {
+        height: 200px !important;
+    }
+    .contact-map {
+        height: 220px !important;
+    }
+    iframe[style*="height: 300px"] {
+        height: 220px !important;
+    }
+    .display-5.font-serif.fw-bold {
+        font-size: 1.4rem;
+    }
+    .hero-section .row.g-4 .col-md-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero-section {
+        padding: 80px 0 30px;
+    }
+    .hero-section .display-4 {
+        font-size: 1.5rem;
+    }
+    .hero-section .badge {
+        font-size: 0.7rem;
+    }
+    .section-padding .display-5 {
+        font-size: 1.3rem;
+    }
+    .section-padding .lead {
+        font-size: 0.85rem;
+    }
+    .stats-card {
+        padding: 0.75rem;
+    }
+    .stats-card h3 {
+        font-size: 1.1rem;
+    }
+    .stats-card p {
+        font-size: 0.7rem;
+    }
+    .treatment-img-container {
+        height: 130px;
+    }
+    .gallery-item {
+        height: 100px;
+    }
+    .navbar-brand span {
+        font-size: 0.85rem;
+    }
+    .hero-section p {
+        font-size: 0.85rem;
+    }
+    .rounded-4.overflow-hidden.shadow-lg[style*="height: 500px"] {
+        height: 280px !important;
+    }
+    [class*="col-"] .glass-card [style*="height: 200px"] {
+        height: 140px !important;
+    }
+    [class*="col-"] .glass-card [style*="height: 250px"] {
+        height: 180px !important;
+    }
+    iframe[style*="height: 300px"] {
+        height: 200px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero-section .display-4 {
+        font-size: 1.5rem;
+    }
+    .hero-section .badge {
+        font-size: 0.7rem;
+    }
+    .section-padding .display-5 {
+        font-size: 1.3rem;
+    }
+    .section-padding .lead {
+        font-size: 0.85rem;
+    }
+    .stats-card {
+        padding: 1rem;
+    }
+    .stats-card h3 {
+        font-size: 1.25rem;
+    }
+    .treatment-img-container {
+        height: 130px;
+    }
+    .gallery-item {
+        height: 120px;
+    }
+    .navbar-brand span {
+        font-size: 0.85rem;
+    }
+}
