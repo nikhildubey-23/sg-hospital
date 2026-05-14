@@ -10,14 +10,14 @@ class Config:
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = os.environ.get('neon_db_connection_string')
+    SQLALCHEMY_DATABASE_URI = os.environ.get('neon_db_connection_string') or os.environ.get('DATABASE_URL')
     SQLALCHEMY_ENGINE_OPTIONS = {
         'pool_pre_ping': True,
     }
 
 class ProductionConfig(Config):
     DEBUG = False
-    SQLALCHEMY_DATABASE_URI = os.environ.get('neon_db_connection_string')
+    SQLALCHEMY_DATABASE_URI = os.environ.get('neon_db_connection_string') or os.environ.get('DATABASE_URL')
     SQLALCHEMY_ENGINE_OPTIONS = {
         'pool_pre_ping': True,
         'pool_recycle': 300,
